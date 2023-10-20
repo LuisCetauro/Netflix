@@ -1,0 +1,452 @@
+﻿@font-face {
+    font-family: 'GothamMedium';
+    src: url('src/font/GothamMedium.ttf') format('truetype');
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Gotham Medium', sans-serif;
+}
+
+button {
+    background-color: rgba(153, 118, 136, 0);
+}
+
+.button_holder {
+    position: relative;
+    float: left;
+    width:100%;
+    
+}
+.button_holder2 {  
+    float: left;
+    margin-left: 15%;
+    padding-top: 1%;
+}
+#netflixicon{
+    position:absolute;
+    top:3%;
+    left:5%;
+    width:8%;
+    padding-top:0.3%;
+}
+
+.header_button {
+    float: left;
+    color: white;
+    padding-right: 15px;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.footer p {
+    margin-left: 20%;
+}
+
+.navbar_desktop{
+    position:fixed;
+    top:0;
+    background-color:rgba(0,0,0,1);
+}
+.header img {
+    margin: 10px;
+    margin-left: -80%;
+    width: 80px;
+}
+
+.footer img {
+    width: 80px;
+    height: 70px;
+    margin-left: 600px;
+}
+.navbar_desktop{
+    height:50px;
+    width:100%;
+    background-color:black;
+}
+
+
+.bg{
+    background:black;
+    color:white;
+    width:100%;
+    height:1005px;
+    position:relative;
+   
+}
+
+.subtitle{
+    font-size: 80px;
+    position:absolute;
+    top:26%;
+    right:33%;
+}
+
+.p_selection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    row-gap:20px;
+    column-gap:90px;
+    background: black;            
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.Username{
+    font-size:30px;
+    color:dimgray;
+}
+.Username, .user-icon {
+    text-align: center;
+    padding: 10px;
+}
+.user-icon img {
+        width: 100%;
+        max-height: 200px; 
+}
+
+
+.frame{
+    background-color:black;
+    
+}
+
+.main_show{
+    width:100%;   
+}
+
+.content {
+    position:absolute;
+    top:70%;
+    left:20%; 
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.content h1{
+    margin-left:8%;
+    font-size:50px;
+    font-weight:bolder;
+}
+
+.box1{
+    height:350px;
+    width:1200px;
+}
+
+.title{
+    margin-left:10%;
+    margin-bottom:1%;
+    color:white;
+    font-size:30px;
+}
+
+.clear{clear:both;}
+
+.shows {
+    margin-left: 7%;
+    display: grid;
+    grid-column: 2; 
+}
+.show1 {
+    margin: 10px;
+    grid-column: 1;
+}
+.show2 {
+    margin: 10px;
+    grid-column: 2;
+}
+
+.show3 {
+    margin:10px;
+    grid-column: 3;
+}
+.show4 {
+    margin: 10px;
+    grid-column: 4;
+}
+
+.show5 {
+    margin: 10px;
+    grid-column: 5;
+}
+.show6 {
+    margin: 10px;
+    grid-column: 6;
+}
+
+.show7 {
+    margin: 10px;
+    grid-column: 7;
+}
+
+.show8 {
+    margin: 10px;
+    grid-column: 8;
+}
+
+.show9 {
+    margin: 10px;
+    grid-column: 9;
+}
+
+.show10 {
+    margin: 10px;
+    grid-column: 10;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto; 
+    gap: 0px; 
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: auto;
+    gap: 0px;
+}
+
+.grid-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px;
+}
+
+.buttonr1 {
+    grid-column: 3;
+    margin-left:400%;
+    
+}
+.buttonl1 {
+    grid-column: 1; 
+}
+
+.shows2 {
+    grid-column: 2;
+}
+
+.buttonl2 {
+    grid-column: 1;
+}
+
+.buttonr2 {
+    grid-column: 3;
+    margin-left: 200%;
+}
+
+    .buttonl1 img,
+    .buttonr1 img,
+    .buttonl2 img,
+    .buttonr2 img,
+    .buttonspacer img{
+        height: 75px;
+    }
+
+
+
+    /*new mobile*/
+@media screen and (min-width: 1001px) and (max-width:1560px) {
+    body {
+        background-color: black;
+    }
+
+    .subtitle {
+        margin: 25% -22%;
+    }
+
+    .p_selection {
+        margin-top: 60%;
+        margin-left: -23%;
+    }
+
+    .frame {
+        margin-top: 200px;
+        width: 1000px;
+    }
+
+    .container {
+        width: 1560px;
+        height: 1500px;
+    }
+
+    .navbar_desktop {
+        height: 5%;
+    }
+
+    .content {
+        position: relative;
+        top: 10%;
+        font-size: 45px;
+        width: 1000px;
+    }
+
+        .content h1 {
+            margin-left: 30%;
+        }
+
+    .main {
+        height: 1350px;
+    }
+
+    .box1 {
+        height: 350px;
+        width: 1200px;
+        padding-bottom: 200px;
+    }
+
+
+    .title {
+        font-size: 60px;
+    }
+
+    #netflixicon {
+        width: 20%;
+        padding-top: 4.5%;
+    }
+
+    .header_button {
+        float: left;
+        color: white;
+        padding-right: 60px;
+    }
+
+    .show4 {
+        display: none;
+    }
+
+    .button_holder2 {
+        font-size: 60px;
+        padding-top: 4.5%;
+        margin-left: 30%;
+    }
+
+    .footer {
+        display: none
+    }
+
+    .buttonl1 img,
+    .buttonr1 img,
+    .buttonl2 img,
+    .buttonr2 img {
+        height: 100px;
+    }
+}
+
+
+/*old mobile*/
+@media only screen and (max-width:1000px) {
+  
+    body {
+        background-color: black;
+    }
+
+    .subtitle {
+        margin: 25% -22%;
+    }
+
+    .p_selection {
+        margin-top: 60%;
+        margin-left: -23%;
+    }
+
+    .frame {
+        margin-top: 200px;
+        width: 1000px;
+    }
+
+    .container {
+        width: 1280px;
+        height: 1500px;
+    }
+
+    .navbar_desktop {
+        height: 5%;
+    }
+
+    .content {
+        position: relative;
+        top: 10%;
+        font-size: 45px;
+        width: 1000px;
+    }
+
+       
+
+    .main {
+        height: 1200px;
+    }
+
+    .box1 {
+        height: 350px;       
+        padding-bottom: 200px;
+    }
+
+
+    .title {
+        font-size: 60px;
+    }
+
+    #netflixicon {
+        width: 20%;
+        padding-top: 4.5%;
+    }
+
+    .header_button {
+        float: left;
+        color: white;
+        padding-right: 60px;
+    }
+
+   
+
+    .button_holder2 {
+        font-size: 60px;
+        padding-top: 4.5%;
+        margin-left: 30%;
+    }
+
+    .footer {
+        display: none
+    }
+
+    .show4,
+    .show3 {
+        display: none;
+    }
+    .buttonr1 {
+        grid-column: 3;
+        margin-left: 100%;
+    }
+
+
+
+    .buttonr2 {
+        grid-column: 3;
+        margin-left: 100%;
+    }
+
+    .grid-containers {
+        margin-left:-10%;
+    }
+        
+}
+
+
